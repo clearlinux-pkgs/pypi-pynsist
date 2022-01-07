@@ -15,12 +15,12 @@ Requires: pypi-pynsist-license = %{version}-%{release}
 Requires: pypi-pynsist-python = %{version}-%{release}
 Requires: pypi-pynsist-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(flit_core)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 Pynsist is a tool to build Windows installers for your Python applications. The
