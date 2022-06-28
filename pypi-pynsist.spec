@@ -4,7 +4,7 @@
 #
 Name     : pypi-pynsist
 Version  : 2.8
-Release  : 6
+Release  : 7
 URL      : https://files.pythonhosted.org/packages/99/e0/b1b797633a71fadb5e37b44b69a707bf1f3108f1922d25bbb82d320af0cd/pynsist-2.8.tar.gz
 Source0  : https://files.pythonhosted.org/packages/99/e0/b1b797633a71fadb5e37b44b69a707bf1f3108f1922d25bbb82d320af0cd/pynsist-2.8.tar.gz
 Summary  : Build NSIS installers for Python applications.
@@ -81,7 +81,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1656383370
+export SOURCE_DATE_EPOCH=1656398940
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
